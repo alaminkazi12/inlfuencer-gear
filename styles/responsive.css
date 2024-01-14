@@ -24,6 +24,15 @@
   .sponsor {
     flex-basis: 70px;
   }
+  .popular-collection > h3 {
+    font-size: 20px;
+    font-weight: 500;
+  }
+  .collection {
+    margin: 16px;
+    grid-template-columns: repeat(1, 1fr);
+    gap: 5px;
+  }
 }
 
 /* tablet */
@@ -51,5 +60,15 @@
   }
   .sponsor {
     flex-basis: 150px;
+  }
+
+  .popular-collection > h3 {
+    font-size: 28px;
+    font-weight: 600;
+  }
+  .collection {
+    margin: 16px;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 15px;
   }
 }
