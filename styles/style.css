@@ -16,7 +16,6 @@ nav {
   justify-content: space-between;
   align-items: center;
   margin: 87px 120px 0;
-  border: 1px solid red;
 }
 nav > h3 {
   color: #3a3a3a;
@@ -44,7 +43,6 @@ nav > ul > li {
   align-items: center;
   margin: 50px 120px;
   gap: 100px;
-  border: 1px solid green;
 }
 .banner-content {
   width: 50%;
@@ -82,4 +80,23 @@ nav > ul > li {
   padding: 10px 24px;
   gap: 8px;
   margin: 0;
+}
+
+/* main section style */
+/* sponsor section styles */
+.sponser-container {
+  margin: 100px 165px;
+}
+.sponsor-card {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 10px;
+  padding: 40px 0;
+}
+.sponsor {
+  flex-basis: 100px;
+}
+.divider {
+  border: 1px solid rgba(192, 204, 218, 0.6);
 }

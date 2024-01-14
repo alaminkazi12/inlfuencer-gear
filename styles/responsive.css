@@ -18,6 +18,12 @@
   .button-primary {
     margin: auto;
   }
+  .sponser-container {
+    margin: 16px 50px;
+  }
+  .sponsor {
+    flex-basis: 70px;
+  }
 }
 
 /* tablet */
@@ -39,5 +45,11 @@
   }
   .button-primary {
     margin: auto;
+  }
+  .sponser-container {
+    margin: 16px 50px;
+  }
+  .sponsor {
+    flex-basis: 150px;
   }
 }
