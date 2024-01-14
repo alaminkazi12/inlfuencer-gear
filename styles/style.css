@@ -171,3 +171,61 @@ nav > ul > li {
   margin: 0;
   padding-top: 5px;
 }
+.see-more-button {
+  color: rgba(224, 44, 109, 0.87);
+  font-size: 16px;
+  font-weight: 700;
+  background: transparent;
+  display: flex;
+  align-items: center;
+  margin: 0;
+  border: none;
+  gap: 5px;
+  float: right;
+  margin-right: 195px;
+  margin-top: 50px;
+}
+
+/* fetured products section styles */
+.featured-product {
+  margin: 100px 165px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 95px;
+}
+.col-1 {
+  width: 45%;
+}
+.col-1 img {
+  width: 100%;
+}
+.col-2 {
+  width: 45%;
+}
+.col-2 h2 {
+  color: #0a0826;
+  font-size: 35px;
+  font-weight: 700;
+}
+.col-2 > p {
+  color: #6c6c6c;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 28px;
+  padding: 16px 0;
+  width: 80%;
+  margin: 0;
+}
+.button-secondary {
+  color: #fff;
+  font-size: 16px;
+  font-weight: 700;
+  background: #e02c6d;
+  padding: 10px 24px;
+  border: none;
+  display: flex;
+  align-items: center;
+  margin: 0;
+  gap: 5px;
+}
