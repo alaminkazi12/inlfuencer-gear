@@ -28,22 +28,20 @@
     font-size: 20px;
     font-weight: 500;
   }
+  .collection-container {
+    margin: 0px 16px;
+  }
   .collection {
     margin: 16px;
     grid-template-columns: repeat(1, 1fr);
     gap: 5px;
   }
-  .see-more-button {
-    text-align: right;
-    margin: 50px 16px;
-  }
   .featured-product {
-    margin: 100px 16px;
     flex-direction: column-reverse;
-    justify-content: space-between;
     align-items: center;
+    justify-content: center;
     gap: 15px;
-    text-align: center;
+    margin: 110px 16px;
   }
   .col-1 {
     width: 100%;
@@ -66,6 +64,9 @@
   .button-secondary {
     text-align: center;
     margin: 20px auto;
+  }
+  footer {
+    margin: 0;
   }
 }
 
